@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import frontend from "./frontend.png"
+import designer from "./designer.png"
+import database from "./database.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,11 +23,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Ixpan from "./company/Ixpan.png"
+import CDMX from "./company/logoCDMX.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,8 +61,14 @@ export {
   meta,
   shopify,
   starbucks,
+  Ixpan,
+  CDMX,
   tesla,
   carrent,
   jobit,
   tripguide,
+  frontend,
+  designer,
+  database,
+  mysql
 };
