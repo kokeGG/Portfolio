@@ -20,7 +20,8 @@ import {
     Ixpan,
     frontend,
     designer,
-    database
+    database,
+    telcel
   } from "../assets";
   
   export const navLinks = [
@@ -158,7 +159,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Telcel Portability Simulator",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -167,19 +168,16 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "Sass",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: telcel,
+      source_code_link: "https://github.com/kokeGG/simuladorPortabilidadTelcel",
+      link: "https://telcel-simulador.web.app/"
     },
     {
-      name: "Job IT",
+      name: "Technical Support",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -219,6 +217,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      link: "https://www.google.com"
     },
   ];
   

@@ -35,6 +35,7 @@ import CDMX from "./company/logoCDMX.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import telcel from "./telcelPortabilidad.png"
 
 export {
   logo,
@@ -64,6 +65,7 @@ export {
   Ixpan,
   CDMX,
   tesla,
+  telcel,
   carrent,
   jobit,
   tripguide,
