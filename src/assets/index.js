@@ -36,6 +36,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import telcel from "./telcelPortabilidad.png"
+import soportetec from "./soportetec.png"
 
 export {
   logo,
@@ -72,5 +73,6 @@ export {
   frontend,
   designer,
   database,
-  mysql
+  mysql,
+  soportetec
 };

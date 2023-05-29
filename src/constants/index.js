@@ -21,7 +21,8 @@ import {
     frontend,
     designer,
     database,
-    telcel
+    telcel,
+    soportetec
   } from "../assets";
   
   export const navLinks = [
@@ -194,8 +195,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: soportetec,
+      source_code_link: "https://github.com/kokeGG/soportetec/tree/main",
+      link: "https://soporte-tecnico-9fb85.web.app/"
     },
     {
       name: "Trip Guide",
