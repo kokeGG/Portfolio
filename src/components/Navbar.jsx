@@ -28,9 +28,9 @@ const Navbar = () => {
             className="text-white text-[18px]
           font-bold cursor-pointer flex"
           >
-            Jorge &nbsp; 
-            <span className="sm:block hidden">| UX</span>
-            <span className="sm:block hidden">/UI | FrontEnd</span>
+            Jorge Hernández&nbsp; 
+            {/* <span className="sm:block hidden">| UX</span>
+            <span className="sm:block hidden">/UI | FrontEnd</span> */}
           </p>
         </Link>
 

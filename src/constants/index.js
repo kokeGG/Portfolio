@@ -22,7 +22,8 @@ import {
     designer,
     database,
     telcel,
-    soportetec
+    soportetec,
+    ajolopiicsa
   } from "../assets";
   
   export const navLinks = [
@@ -162,7 +163,7 @@ import {
     {
       name: "Telcel Portability Simulator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application based on Telcel's system that consists of switching a user from another phone company to Telcel.",
       tags: [
         {
           name: "react",
@@ -180,14 +181,14 @@ import {
     {
       name: "Technical Support",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application used to keep track of users and computers assigned to them, to report on the status of the computers and to provide technical assistance if necessary. Username: Alex | Password: 123456",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
@@ -200,26 +201,17 @@ import {
       link: "https://soporte-tecnico-9fb85.web.app/"
     },
     {
-      name: "Trip Guide",
+      name: "Ajolopiicsa",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Mobile application that shows all the locations in the city that are responsible for receiving donations for the indigenous peoples of Mexico and for the preservation of salamanders.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Figma",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      link: "https://www.google.com"
+      image: ajolopiicsa,
+      link: "https://www.figma.com/community/file/1244863419240200808"
     },
   ];
   
