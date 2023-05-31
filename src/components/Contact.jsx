@@ -47,7 +47,7 @@ const Contact = () => {
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}></p>
-          <h2 className={styles.sectionHeadText}>Contacto</h2>
+          <h2 className={styles.sectionHeadText}>Contact</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.padding} flex flex-wrap gap-7`}>
