@@ -209,7 +209,7 @@ import {
     {
       name: "Ajolopiicsa",
       description:
-        "Mobile application that shows all the locations in the city that are responsible for receiving donations for the indigenous peoples of Mexico and for the preservation of salamanders.",
+        "Mobile application that shows all the locations in the city that are responsible for receiving donations for the indigenous peoples of Mexico and for the preservation of axolotl.",
       tags: [
         {
           name: "Figma",
