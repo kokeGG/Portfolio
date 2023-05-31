@@ -9,6 +9,9 @@ import close from "./close.svg";
 import frontend from "./frontend.png"
 import designer from "./designer.png"
 import database from "./database.png"
+import email from "./email.png"
+import linkedin from "./linkedin.png"
+import phone from "./phone.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -38,6 +41,8 @@ import tripguide from "./tripguide.png";
 import telcel from "./telcelPortabilidad.png"
 import soportetec from "./soportetec.png"
 import ajolopiicsa from "./ajolopiicsa.png"
+import ventasJava from "./ventasJava.png"
+import preregistro from "./preregistro.png"
 
 export {
   logo,
@@ -76,5 +81,10 @@ export {
   database,
   mysql,
   soportetec,
-  ajolopiicsa
+  ajolopiicsa,
+  ventasJava,
+  preregistro,
+  email,
+  linkedin,
+  phone
 };

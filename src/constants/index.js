@@ -23,7 +23,12 @@ import {
     database,
     telcel,
     soportetec,
-    ajolopiicsa
+    ajolopiicsa,
+    ventasJava,
+    preregistro,
+    email,
+    linkedin,
+    phone
   } from "../assets";
   
   export const navLinks = [
@@ -111,10 +116,11 @@ import {
       iconBg: "#383E56",
       date: "Current",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Design of flow diagrams for the creation of robots.",
+        "Development of robots and automated processes in tools such as UFT, UiPath, RPA, Rocketbot.",
+        "Vulnerability detection in computer systems with Fortify SCA and WebInspect, identifying vulnerabilities following standards such as OWASP, PCI, etc.",
+        "Design and creation of databases in MYSQL and SQL Server.",
+        "Support in the creation of test matrix, use cases and documentation.",
       ],
     },
     {
@@ -124,38 +130,34 @@ import {
       iconBg: "#E6DEDD",
       date: "April 2022 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Database design and development in PostgreSQL and MySQL.",
+        "Layout and development of web systems with javascript, using the React.js library and styles and design with CSS and Material UI.",
+        "Querying API's using Postman.",
+        "Backend development with javascript, using Node.js.",
+        "Deployment of database, backend app and frontend app in CPanel hosting."
       ],
     },
   ];
   
-  const testimonials = [
+  const datas = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      data:
+        "+52 7441276492",
+      name: "Phone",
+      image: phone,
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      data:
+        "Jorge Hernández",
+      name: "Linkedin",
+      image: linkedin,
+      link: ""
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      data:
+        "jorgerhr99@gmail.com",
+      name: "Email",
+      image: email,
     },
   ];
   
@@ -195,6 +197,10 @@ import {
           name: "scss",
           color: "pink-text-gradient",
         },
+        {
+          name: "MySQL",
+          color: "red-text-gradient"
+        }
       ],
       image: soportetec,
       source_code_link: "https://github.com/kokeGG/soportetec/tree/main",
@@ -213,6 +219,32 @@ import {
       image: ajolopiicsa,
       link: "https://www.figma.com/community/file/1244863419240200808"
     },
+    {
+      name: "pre-registration social service",
+      description:
+        "Web application that helps schools students to register to perform their social service in the goverment agency, and to keep order and control in the delivery of paperwork.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "white-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient"
+        },
+        {
+          name: "Postgresql",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: preregistro,
+      source_code_link: "https://github.com/kokeGG/sistema_ventas_JAVA",
+      link: "https://preregistro.netlify.app/"
+    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, datas, projects };
