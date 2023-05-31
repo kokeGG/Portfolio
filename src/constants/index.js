@@ -183,7 +183,7 @@ import {
     {
       name: "Technical Support",
       description:
-        "Web application used to keep track of users and computers assigned to them, to report on the status of the computers and to provide technical assistance if necessary. Username: Alex | Password: 123456",
+        "Web application used to keep track of users and computers assigned to them, to report on the status of the computers and to provide technical assistance if necessary. Username: Koke | Password: 123456",
       tags: [
         {
           name: "react",
