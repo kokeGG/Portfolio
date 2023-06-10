@@ -43,6 +43,7 @@ import soportetec from "./soportetec.png"
 import ajolopiicsa from "./ajolopiicsa.png"
 import ventasJava from "./ventasJava.png"
 import preregistro from "./preregistro.png"
+import tacoAca from "./tacoAca.png"
 
 export {
   logo,
@@ -84,6 +85,7 @@ export {
   ajolopiicsa,
   ventasJava,
   preregistro,
+  tacoAca,
   email,
   linkedin,
   phone

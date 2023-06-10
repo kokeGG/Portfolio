@@ -25,6 +25,7 @@ import {
     soportetec,
     ajolopiicsa,
     ventasJava,
+    tacoAca,
     preregistro,
     email,
     linkedin,
@@ -213,7 +214,11 @@ import {
       tags: [
         {
           name: "Figma",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "UX/UI",
+          color: "blue-text-gradient",
         },
       ],
       image: ajolopiicsa,
@@ -242,8 +247,26 @@ import {
         }
       ],
       image: preregistro,
-      source_code_link: "https://github.com/kokeGG/sistema_ventas_JAVA",
+      // source_code_link: "https://github.com/kokeGG/sistema_ventas_JAVA",
       link: "https://preregistro.netlify.app/"
+    },
+    {
+      name: "tacoAca",
+      description:
+        "Mobile food delivery application focused on tacos, the user can choose from different varieties and receive his order in a matter of minutes.",
+      tags: [
+        {
+          name: "Figma",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "UX/UI",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: tacoAca,
+      // source_code_link: "https://github.com/kokeGG/sistema_ventas_JAVA",
+      link: "https://www.figma.com/community/file/1248663287441684682"
     },
   ];
   
