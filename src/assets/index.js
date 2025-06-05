@@ -34,6 +34,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import Ixpan from "./company/Ixpan.png"
 import CDMX from "./company/logoCDMX.png"
+import ANEPSA from "./company/anepsa.png"
+import ADDCONTROL from "./company/addcontrol.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -41,9 +43,10 @@ import tripguide from "./tripguide.png";
 import telcel from "./telcelPortabilidad.png"
 import soportetec from "./soportetec.png"
 import ajolopiicsa from "./ajolopiicsa.png"
-import ventasJava from "./ventasJava.png"
 import preregistro from "./preregistro.png"
 import tacoAca from "./tacoAca.png"
+import suiteAndroid from "./suiteAndroid.jpg"
+import suiteIOS from "./suiteIOS.jpg"
 
 export {
   logo,
@@ -72,6 +75,8 @@ export {
   starbucks,
   Ixpan,
   CDMX,
+  ANEPSA,
+  ADDCONTROL,
   tesla,
   telcel,
   carrent,
@@ -83,8 +88,9 @@ export {
   mysql,
   soportetec,
   ajolopiicsa,
-  ventasJava,
   preregistro,
+  suiteAndroid,
+  suiteIOS,
   tacoAca,
   email,
   linkedin,

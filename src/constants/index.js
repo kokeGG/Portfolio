@@ -24,12 +24,15 @@ import {
     telcel,
     soportetec,
     ajolopiicsa,
-    ventasJava,
     tacoAca,
     preregistro,
+    suiteAndroid,
+    suiteIOS,
     email,
     linkedin,
-    phone
+    phone,
+    ANEPSA,
+    ADDCONTROL
   } from "../assets";
   
   export const navLinks = [
@@ -111,11 +114,36 @@ import {
   
   const experiences = [
     {
+      title: "Frontend Developer",
+      company_name: "ADDCONTROL",
+      icon: ADDCONTROL,
+      iconBg: "#E6DEDD",
+      date: "June 2023 - Current",
+      points: [
+        "Mobile application development with Flutter.",
+        "Deployment in App Store and Playstore.",
+        "Compilation and execution with Xcode and Android Studio.",
+        "UX/UI design",
+        "Frontend development with Angular.",
+      ],
+    },
+    {
+      title: "Fullstack Developer",
+      company_name: "ANEPSA",
+      icon: ANEPSA,
+      iconBg: "#E6DEDD",
+      date: "June 2023 - August 2023",
+      points: [
+        "Development of web apps with Node.js and React.js",
+        "Templates design with Figma",
+      ],
+    },
+    {
       title: "Automation and Cybersecurity Consultant",
       company_name: "Ixpan Seguridad",
       icon: Ixpan,
       iconBg: "#383E56",
-      date: "Current",
+      date: "December 2022 - June 2023",
       points: [
         "Design of flow diagrams for the creation of robots.",
         "Development of robots and automated processes in tools such as UFT, UiPath, RPA, Rocketbot.",
@@ -126,7 +154,7 @@ import {
     },
     {
       title: "Full stack Developer",
-      company_name: "Undersecretary of Urban Works and Services of Mexico City",
+      company_name: "Subsecretaría de obras y servicios urbanos de la Ciudad de México",
       icon: CDMX,
       iconBg: "#E6DEDD",
       date: "April 2022 - December 2022",
@@ -267,6 +295,34 @@ import {
       image: tacoAca,
       // source_code_link: "https://github.com/kokeGG/sistema_ventas_JAVA",
       link: "https://www.figma.com/community/file/1248663287441684682"
+    },
+    {
+      name: "AddControl Android Apps",
+      description:
+        "Suite of addcontrol tools available for android.",
+      tags: [
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: suiteAndroid,
+      // source_code_link: "https://github.com/kokeGG/sistema_ventas_JAVA",
+      link: "https://play.google.com/store/apps/developer?id=Addcontrol&hl=es_MX"
+    },
+    {
+      name: "AddControl IOS Apps",
+      description:
+        "Suite of addcontrol tools available for IOS.",
+      tags: [
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: suiteIOS,
+      // source_code_link: "https://github.com/kokeGG/sistema_ventas_JAVA",
+      link: "https://apps.apple.com/ca/developer/jorge-roberto-hernandez-rios/id1714733644"
     },
   ];
   
