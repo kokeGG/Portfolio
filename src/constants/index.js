@@ -181,7 +181,7 @@ import {
         "Jorge Hernández",
       name: "Linkedin",
       image: linkedin,
-      link: ""
+      link: "https://www.linkedin.com/in/jorge-hernández-5a7114206"
     },
     {
       data:
