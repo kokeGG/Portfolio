@@ -33,7 +33,8 @@ import {
     phone,
     ANEPSA,
     ADDCONTROL,
-    blogCafe
+    blogCafe,
+    foto
   } from "../assets";
   
   export const navLinks = [
@@ -349,8 +350,13 @@ import {
     },
   ];
 
-  const education = [
-
-  ]
+  export const education = [
+    {
+      data: "Licenciatura en Ciencias de la Informática (2019 - 2023)",
+      name: "IPN - UPIICSA",
+      image: foto,
+      link: "https://www.upiicsa.ipn.mx/" // Enlace oficial de la escuela
+    }
+  ];
   
   export { services, technologies, experiences, datas, projects };
