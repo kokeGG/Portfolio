@@ -12,6 +12,8 @@ import database from "./database.png"
 import email from "./email.png"
 import linkedin from "./linkedin.png"
 import phone from "./phone.png"
+import foto from "./foto.jpg"
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -45,12 +47,14 @@ import soportetec from "./soportetec.png"
 import ajolopiicsa from "./ajolopiicsa.png"
 import preregistro from "./preregistro.png"
 import tacoAca from "./tacoAca.png"
+import blogCafe from "./blogCafe.jpg"
 import suiteAndroid from "./suiteAndroid.jpg"
 import suiteIOS from "./suiteIOS.jpg"
 
 export {
   logo,
   backend,
+  foto,
   creator,
   mobile,
   web,
@@ -91,6 +95,7 @@ export {
   preregistro,
   suiteAndroid,
   suiteIOS,
+  blogCafe,
   tacoAca,
   email,
   linkedin,

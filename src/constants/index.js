@@ -32,7 +32,8 @@ import {
     linkedin,
     phone,
     ANEPSA,
-    ADDCONTROL
+    ADDCONTROL,
+    blogCafe
   } from "../assets";
   
   export const navLinks = [
@@ -297,6 +298,28 @@ import {
       link: "https://www.figma.com/community/file/1248663287441684682"
     },
     {
+      name: "Blog De Cafe",
+      description:
+        "Static web page about coffee.",
+      tags: [
+        {
+          name: "HTML",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JS",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: blogCafe,
+      // source_code_link: "https://github.com/kokeGG/sistema_ventas_JAVA",
+      link: "https://coffeeblogkoke.netlify.app/"
+    },
+    {
       name: "AddControl Android Apps",
       description:
         "Suite of addcontrol tools available for android.",
@@ -325,5 +348,9 @@ import {
       link: "https://apps.apple.com/ca/developer/jorge-roberto-hernandez-rios/id1714733644"
     },
   ];
+
+  const education = [
+
+  ]
   
   export { services, technologies, experiences, datas, projects };
